@@ -10,6 +10,12 @@
 
 #define SIZE 1000
 
+void push(Stack *stack, int data);
+int pop(Stack *stack);
+int show_top(Stack *stack);
+int size(Stack *stack);
+int empty(Stack *stack);
+
 typedef struct Node {
     int data;
     struct Node *next;
