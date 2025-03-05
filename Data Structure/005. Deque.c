@@ -8,7 +8,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define SIZE 10000
+#define SIZE 20000
 
 typedef struct {
     int data[SIZE];
